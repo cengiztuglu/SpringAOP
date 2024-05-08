@@ -10,4 +10,10 @@ public class MessageService {
         System.out.println("Method give message"+param);
         return param;
     }
+
+    public String messageNewVersion(String param)
+    {
+        System.out.println("New api version message" +param);
+        return param;
+    }
 }
